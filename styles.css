@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+}
+.mainPage{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(60deg,#6642da,#5e518a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ddd;
+}
+.mainPage h2{
+    font-size: 43px;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.mainPage h2 span{
+    color: #03fd56a9;
+}
+textarea{
+    width: 700px;
+    height: 270px;
+    background: #383570;
+    color: #ddd;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 12px;
+    resize: none;
+    margin-bottom: 40px;
+}
+textarea::placeholder{
+    font-size: 18px;
+    color: #ddd;
+}
+.concerters{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    background: #12cf51a9;
+    color: #ddd;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius: 38px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+}
+select{
+    flex: 1;
+    background: #383570;
+    color: #ddd;
+    height: 45px;
+    padding: 0px 22px;
+    outline: 0;
+    border: 0;
+    border-radius: 37px;
+    background-size: 16px;
+    
+}
